@@ -3,7 +3,7 @@ import copy
 from insertion_sort import *
 
 # create test data
-test = random.sample(range(100), 35)
+test = random.sample(range(1000), 500)
 test_cpy = copy.copy(test)
 
 # run the sorting, our implementation and pythons implementation
